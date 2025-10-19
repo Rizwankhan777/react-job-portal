@@ -9,7 +9,7 @@ export default function JobCard({ job }) {
 
         <div className="flex items-center mb-2">
           <div className="w-8 h-8 bg-blue-100 rounded-md flex items-center justify-center">
-            <FiBriefcase className="text-blue-600 text-lg" />
+            <img src={job.image} alt="" />
           </div>
           <div className="ml-2">
             <h3 className="text-sm  text-gray-800">{job.title}</h3>
