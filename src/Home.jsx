@@ -14,7 +14,7 @@ const sampleUser = {
 
 const Home = () => {
 
-      const featuredJobs = jobs.filter(job => job.category === 'featured');
+  const featuredJobs = jobs.filter(job => job.category === 'featured');
   const recommendedJobs = jobs.filter(job => job.category === 'recommended');
   const latestJobs = jobs.filter(job => job.category === 'latest');
 
