@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.container-max { max-width: 1350px; }
+
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("/src/assets/fonts/NeueHaasDisplayRoman.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("/src/assets/fonts/NeueHaasDisplayBold.ttf") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+}
