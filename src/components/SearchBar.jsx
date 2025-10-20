@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FiSearch } from "react-icons/fi";
-import { jobs } from "../data/jobs"; // ✅ import job data
-
+import { jobs } from "../data/jobs"; // 
 export default function SearchBar({ 
   searchTerm,
   setSearchTerm,
@@ -12,10 +11,10 @@ export default function SearchBar({
   onSearch }) 
   {
 
-   // ✅ Extract unique locations dynamically
+   // Extract unique locations dynamically
   const locations = [...new Set(jobs.map((job) => job.location))];
 
-  // ✅ Extract unique job titles (for job types)
+  //  Extract unique job titles (for job types)
   const jobTypes = [...new Set(jobs.map((job) => job.title))];
 
   const handleSearchClick = () => {
